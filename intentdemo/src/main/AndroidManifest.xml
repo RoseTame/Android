@@ -9,6 +9,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloAndroid">
         <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:icon="@drawable/login"
+            android:label="用户登录"
+            android:theme="@style/Theme.Login">
+
+        </activity>
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
