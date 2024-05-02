@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "HelloAndroid"
 include(":app")
 include(":intentdemo")
+include(":servicedemo")
